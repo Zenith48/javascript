@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-header">
+        <h3 id="title" class="todo">todo app 2</h3>
+    </div>
+
+    <ul id="task-list-1">
+        <li class="task">Gorev 1</li>
+        <li class = 'task'>Gorev 2</li>
+        <li class="task">Gorev 3</li>
+    </ul>
+    <ul id="task-list-2">
+        <li class="task">Gorev 1</li>
+        <li class = 'task'>Gorev 2</li>
+        <li class="task">Gorev 3</li>
+    </ul>
+
+    <script>
+        let sonuc;
+
+        // tasklist = document.getElementsByClassName("task");
+        ul = document.getElementById("task-list-1");
+        tasklist = ul.getElementsByTagName("li");
+
+        tasklist = document.querySelectorAll("#task-list-2 li");
+
+        // for(let i = 0; i<tasklist.length; i++){
+        // console.log(tasklist[i]);
+
+        // }
+
+        for(let task of tasklist){
+            task.style.color = "red";
+            task.style.fontSize = "30px";
+        }
+        // console.log(sonuc);
+    </script>
+</body>
+</html>
