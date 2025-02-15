@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // const msj = ["benim", "adım", "agit", "findikci"];
+
+        // let sonuc = "";
+
+        // for(let x of msj){
+        //     sonuc += x + " ";
+        // }
+        // console.log(sonuc);
+
+        // console.log(...msj);
+
+        // const dizi = ["bir", "iki"];
+        // const dizi1 = ["bir", "iki", "uc", "dort"];
+
+        // const dizi2 = [...dizi, ...dizi1, "bes", "alti"];
+
+        // console.log(dizi2);
+
+
+        const sayilar1 = [1,2,3,4,5,6];
+
+        // const sayilar2 = sayilar1; //reference copy
+        const sayilar2 = [...sayilar1]; //value copy
+        
+        sayilar2[0] = 10;
+
+        console.log(sayilar1, sayilar2);
+
+
+
+    </script>
+</body>
+</html>
