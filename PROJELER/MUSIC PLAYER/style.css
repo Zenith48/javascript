@@ -1,0 +1,56 @@
+body {
+    background-color: #123524;
+    color: #EFE3C2;
+
+}
+
+h1{
+    color: #85A947;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 90vh; */
+    width: 400px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing {
+    background-color: #123524;
+    color: #EFE3C2;
+}
+
+.card{
+    background-color: #131010;
+    
+}
+
+.btn{
+    background-color: #123524;
+    border-color: #123524;
+}
+.btn:hover{
+    background-color: #3E7B27;
+    border-color: #3E7B27;
+}
+
+.list-group{
+    background-color: #123524;
+}
